@@ -1,0 +1,36 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+button {
+    display: block;
+    position: absolute;
+}
+
+#content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 25%
+}
+
+#accept {
+    display: none;
+}
+
+#yes {
+    top:40%;
+    left: 50%;
+    transform: translate(-150%);
+}
+
+#no {
+    top: 40%;
+    left: 50%;
+    transform: translate(50%);
+}
+
+.navbar {
+    display: none;
+}
