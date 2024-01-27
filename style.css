@@ -12,11 +12,16 @@ button {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 25%
+    top: 25%;
+    text-align: center;
 }
 
 #accept {
     display: none;
+}
+
+#social {
+    margin-top: 20px;
 }
 
 #yes {

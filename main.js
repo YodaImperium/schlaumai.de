@@ -45,6 +45,8 @@ function onAccept() {
     }
     document.getElementById("accept").style.display = "block";
     document.getElementById("question").style.display = "none";
+    document.getElementById("content").style.top = "10%";
     noButton.style.display = "none";
+    yesButton.style.display = "none";
     video.play();
 }
