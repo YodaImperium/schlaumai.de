@@ -45,7 +45,6 @@ function onAccept() {
     }
     document.getElementById("accept").style.display = "block";
     document.getElementById("question").style.display = "none";
-    document.getElementsByClassName("navbar")[0].style.display = "block";
     noButton.style.display = "none";
     video.play();
 }
