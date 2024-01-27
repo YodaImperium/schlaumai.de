@@ -48,5 +48,4 @@ function onAccept() {
     document.getElementById("content").style.top = "10%";
     noButton.style.display = "none";
     yesButton.style.display = "none";
-    video.play();
 }
