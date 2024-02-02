@@ -2,4 +2,4 @@ let calendar = '<iframe src="https://calendar.google.com/calendar/appointments/s
 let socials = '<a href="https://instagram.com/flippoo1"><box-icon type="logo" name="instagram" size="lg" animation="tada-hover"></box-icon></a><a href="https://github.com/YodaImperium/schlaumai.de"><box-icon name="github" type="logo" size="lg" animation="tada-hover"></box-icon></a>';
 
 document.querySelector("#booking").innerHTML = calendar;
-document.querySelector("#social").innerHTML = socials;
+document.querySelector("#social").innerHTML = socials;sdfsdf
