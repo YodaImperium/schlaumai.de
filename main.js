@@ -3,20 +3,16 @@ let yesButton = document.querySelector("#yes");
 
 let moving = false;
 
-let video = document.querySelector("#video1")
-
 noButton.addEventListener("click", moveRandomly);
 noButton.addEventListener("mouseover", moveRandomly);
 
 yesButton.addEventListener("click", onAccept);
 
-console.log()
-
 function toggleMoving() {
     moving = !moving;
 }
 
-function moveRandomly() {
+let moveRandomly = () => {
     if (moving) {
         return;
     }
@@ -39,7 +35,7 @@ function moveRandomly() {
     setTimeout(toggleMoving, 100);
 }
 
-function onAccept() {
+let onAccept = () => {
     if (moving) {
         return;
     }
